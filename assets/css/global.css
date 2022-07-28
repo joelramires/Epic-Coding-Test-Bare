@@ -1,0 +1,11 @@
+main{
+    min-height: 800px;
+    margin-top: 150px;
+}
+.btn {
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.btn-white {
+    border: 1px solid #000;
+}

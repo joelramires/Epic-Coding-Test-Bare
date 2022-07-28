@@ -1,0 +1,139 @@
+
+#main-nav {
+	padding-top: 20px;
+	height: calc(84px);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	-webkit-transition: all linear .15s;
+	transition: all linear .15s;
+}
+
+#main-nav .navbar-container {
+	align-items: center;
+}
+
+#main-nav .navbar-top .phone-seperator{
+    padding: 0 15px;   
+}
+#main-nav .navbar-top .main-phone{
+    color: #000;
+    text-decoration: none;
+}
+    
+#main-nav .nav-link {
+	font-size: 20px;
+	line-height: 24px;
+	color: #000;
+}
+
+#main-nav .navbar-left {
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 5px 15px;
+	width: 100%;
+	height: 84px;
+}
+
+#main-nav .navbar-left .navbar-brand {
+	text-align: center;
+	margin: 0;
+}
+
+#main-nav .hamburger i{
+    font-size: 30px;
+}
+
+@media (min-width: 1440px) {
+	#main-nav .navbar-left .navbar-toggler {
+		display: none;
+	}
+}
+
+
+#main-nav #primary-nav a:hover {
+	text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+	#main-nav {
+		height: calc(84px);
+	}
+}
+
+@media (min-width: 1440px) {
+	#main-nav {
+		height: calc(96px);
+	}
+
+	#main-nav .navbar-container {
+		align-items: center;
+	}
+
+	#main-nav .navbar-left {
+		width: auto;
+		padding-left: 0;
+	}
+
+	#main-nav .nav-link {
+		font-size: 14px;
+		line-height: 17px;
+		color: #000;
+		padding: .5rem 25px;
+	}
+
+	#main-nav .navbar-collapse {
+		padding: 0;
+		border-top: none;
+	}
+    #main-nav .navbar-nav{
+        flex-direction: row;
+    }
+	#main-nav #primary-nav > li:first-of-type a.nav-link {
+		padding-left: 0;
+	}
+
+	#main-nav #primary-nav > li:last-of-type a.nav-link {
+		padding-right: 0;
+	}
+
+	#main-nav #primary-nav > li:hover a.nav-link {
+		text-decoration: none;
+		text-shadow: 0 0 0.65px, 0 0 0.65px;
+	}
+
+	#main-nav #primary-nav .dropdown:hover > .dropdown-menu {
+		display: block;
+	}
+
+	#main-nav #primary-nav .dropdown li:hover {
+		background: none;
+	}
+
+	#main-nav #primary-nav .dropdown li:hover a {
+		background: none;
+		font-weight: normal;
+	}
+
+	#main-nav #primary-nav .dropdown .dropdown-menu {
+		margin-top: 0;
+	}
+
+	#main-nav #primary-nav .dropdown li {
+		margin: 0 1em;
+	}
+
+	#main-nav #primary-nav .dropdown li a {
+		padding: .25em 0;
+	}
+
+	#wpadminbar + #page #main-nav {
+		top: 32px;
+	}
+
+	#wpadminbar + #page .offcanvas-content {
+		min-height: calc(100vh - 96px - 32px);
+	}
+}

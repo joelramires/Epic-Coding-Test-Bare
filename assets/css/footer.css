@@ -1,0 +1,36 @@
+.footer{
+    background-color: #127387;
+    padding:  20px 0;
+}
+.footer .main-logo {
+	width: 150px;
+	text-align: center;
+	box-sizing: content-box;
+    margin-bottom: 20px;
+}
+
+.footer .footer-menu {
+	list-style-type: none;
+}
+
+.footer .footer-menu li a {
+	color: #fff;
+}
+
+@media (min-width: 1440px) {
+	.footer .main-logo {
+		padding: 10px 20px 0 100px;
+        margin-bottom: 0;
+	}
+
+	.footer .footer-menu {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.footer .footer-menu li a {
+		padding: 10px 30px;
+	}
+}
