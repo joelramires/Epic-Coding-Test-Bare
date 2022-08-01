@@ -4,7 +4,7 @@ main{
 }
 .btn {
     padding: 5px 15px;
-    border-radius: 20px;
+    /* border-radius: 20px; */
 }
 .btn-white {
     border: 1px solid #000;
